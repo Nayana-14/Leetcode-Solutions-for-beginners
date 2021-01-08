@@ -1,4 +1,5 @@
 //Squares of a sorted array - Leetcode 
+//Solved in Java
 //We must note that the square of any number is positive. Hence we are running a while loop which would compare the 
 //elements of the array from both frontside and backside each time and the square of the bigger number gets added to the array.
 //We are adding the elements to the array from the last index to the first i.e., (nums.length-1) to 0.
