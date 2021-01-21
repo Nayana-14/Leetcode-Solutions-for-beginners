@@ -8,7 +8,7 @@ class Solution {
        int arr[] = new int[nums.length];
        int a = 0;
        int b = nums.length - 1;
-       int index = nums.length - 1;
+       int c = nums.length - 1;
        while(a<=b){
            if(nums[a]*nums[a] > nums[b]*nums[b]){
                arr[c] = nums[a]*nums[a];
